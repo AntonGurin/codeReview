@@ -1,0 +1,67 @@
+/* Extra empty line after display: flex */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+/*  Main should be nammed as App-main 
+    For padding using px and em, choose only one (I will do "em")
+*/
+.main {
+  padding-left: 30px;
+  padding-right: 2em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* Extra empty line*/
+/* Add 'reduce' to turn off animation for suitable user experience */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Remove the style comments from code  */
+.App-header {
+  /*background-color: #282c34;*/
+
+  /*color: white;*/
+  margin-top: 20vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-footer-link {
+  color: black;
+  font-size: unset;
+}
+.App-footer-link:visited {
+  color: gray;
+  opacity: 0.5;
+}
+/* Empty line is extra */
+
+.App-footer {
+  display: flex;
+  margin-top: auto;
+}
